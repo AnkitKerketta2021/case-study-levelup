@@ -1,0 +1,10 @@
+small{
+    font-size: 14px;
+    color:red;
+    margin-bottom: 10px;
+}
+#navBar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}

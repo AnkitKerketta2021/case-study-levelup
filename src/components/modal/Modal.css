@@ -1,0 +1,39 @@
+.modal-title{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+.success-icon{
+    color: green;
+    font-size: 4rem;
+}
+
+.modal-header{
+    border: none;
+    
+}
+
+.modal-footer{
+    border: none;
+    
+}
+
+.the-modal-body{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-footer{
+    margin: auto;
+}
+
+.modal-button{
+    padding: 0.5rem 4rem 0.5rem 4rem ;
+    font-size: 1.1rem;
+}
+
+.modal .modal-content{
+    background-color: #BFFFF1;
+}

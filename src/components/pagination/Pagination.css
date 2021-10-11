@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --font1: 'Poppins', sans-serif;
+    ;
+}
+
+#content {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+
+}
+
+.card-answer {
+    /* padding: 10px; */
+    /* font-size: 10px; */
+    text-align: justify;
+}
+
+
+.ques {
+    font-size: 18px;
+    text-align: left;
+    color: #707070;
+    display: flex;
+}
+
+.ans {
+    text-align: justify;
+    color: #888888;
+    padding-left: 50px;
+    padding-right: 25px;
+    display: flex;
+    font-size: 12px;
+    font-family: var(--font1);
+    letter-spacing: 0.4px;
+}

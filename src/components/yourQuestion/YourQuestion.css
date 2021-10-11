@@ -1,0 +1,57 @@
+#header {
+    font: normal normal bold 30px/48px Sitka Banner;
+
+    color: #086288;
+
+}
+small{
+    color:red;
+
+}
+
+.addButton {
+    margin-top: 115px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .addButton {
+        margin: 0;
+        display: flex;
+        justify-content: end;
+    
+    }
+}
+
+.noDisplay {
+    display: 'none' !important;
+}
+
+
+option {
+    color: #444;
+}
+
+input + label{
+    color: #707070;
+    opacity: 0.6;
+}
+textarea + label{
+    color: #707070;
+    opacity: 0.6;
+
+}
+
+input:focus + label{
+    color: #086288;
+    opacity: 1;
+    font-weight: 500;
+}
+
+textarea:focus + label{
+    color: #086288;
+    opacity: 1;
+    font-weight: 500;
+}
